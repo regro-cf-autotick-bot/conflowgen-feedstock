@@ -1,5 +1,5 @@
 {% set name = "conflowgen" %}
-{% set version = "1.0.3" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 333522abb54d4590b2a1f62a92c0b3394f0ba1aefad29d01b4cc2a70b525a42c
+  sha256: 1519cd01162ad3ebedf46c71254aa6b7609aff4203fd1dc3bd26fecbebfa787e
 
 build:
   noarch: python
@@ -26,6 +26,7 @@ requirements:
     - enum_tools >=0.7
     - matplotlib-base
     - plotly
+    - python-kaleido
     - seaborn
     - openpyxl
 
