@@ -48,7 +48,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A generator for synthetic container flows at maritime container terminals with a focus is on yard operations'
+  summary: 'A generator for synthetic container flows at maritime container terminals with a focus on yard operations'
   doc_url: https://conflowgen.readthedocs.io/
   dev_url: https://github.com/1kastner/conflowgen
 
