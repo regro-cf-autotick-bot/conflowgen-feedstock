@@ -1,11 +1,11 @@
-About conflowgen
-================
+About conflowgen-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conflowgen-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/1kastner/conflowgen
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conflowgen-feedstock/blob/main/LICENSE.txt)
 
 Summary: A generator for synthetic container flows at maritime container terminals with a focus is on yard operations
 

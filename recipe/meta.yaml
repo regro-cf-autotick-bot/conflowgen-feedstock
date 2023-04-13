@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -22,10 +22,12 @@ requirements:
     - python >=3.8
     - pandas >=1
     - numpy
+    - scipy
     - peewee >=3
     - enum_tools >=0.7
     - matplotlib-base
     - plotly
+    - python-kaleido
     - seaborn
     - openpyxl
 
@@ -46,7 +48,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A generator for synthetic container flows at maritime container terminals with a focus is on yard operations'
+  summary: 'A generator for synthetic container flows at maritime container terminals with a focus on yard operations'
   doc_url: https://conflowgen.readthedocs.io/
   dev_url: https://github.com/1kastner/conflowgen
 
