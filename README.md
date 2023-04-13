@@ -7,7 +7,7 @@ Home: https://github.com/1kastner/conflowgen
 
 Package license: MIT
 
-Summary: A generator for synthetic container flows at maritime container terminals with a focus is on yard operations
+Summary: A generator for synthetic container flows at maritime container terminals with a focus on yard operations
 
 Development: https://github.com/1kastner/conflowgen
 
