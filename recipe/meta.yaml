@@ -1,5 +1,5 @@
 {% set name = "conflowgen" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ff664e3b6567dfd558a867f5e307b4667da86aebed7116b37ebef0f45defaadd
+  sha256: ca21a2862b5b1d4ee1a81ec05f622bb6b8aaea85053f56dee087ca219a37961a
 
 build:
   noarch: python
