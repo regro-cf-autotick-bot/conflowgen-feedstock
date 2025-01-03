@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: f8084871a6484ce08d1256bcba4fa4eb4f61b2f79bb90dbbad0fc41e19b396a1
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - pandas >=1
     - numpy
     - peewee >=3
@@ -37,6 +37,7 @@ test:
     - pytest
     - pip
     - parameterized
+    - python {{ python_min }}
   source_files:
     - conflowgen/tests
   commands:
